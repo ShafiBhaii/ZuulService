@@ -27,7 +27,7 @@ public class LoggingFilter extends ZuulFilter{
 		}
 		return null;
 	}
-	
+
 	@Override
 	public boolean shouldFilter() {
 		return true;
